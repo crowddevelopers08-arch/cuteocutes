@@ -29,8 +29,8 @@ function HomePage() {
   return (
     <>
       <Hero />
-      <Products />
       <SchoolMarathonSpecial />
+      <Products />
       <WhyManufacturer />
       <Testimonials />
       <Gallery />
