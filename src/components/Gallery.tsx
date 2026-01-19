@@ -3,21 +3,21 @@ import { Autoplay } from "swiper/modules";
 import "swiper/css";
 
 export default function Gallery() {
-  const galleryImages = [
-    { id: 1, src: "/gallery/1.jpg", alt: "Factory Production Line" },
-    { id: 2, src: "/gallery/2.jpg", alt: "Quality Control Process" },
-    { id: 3, src: "/gallery/3.jpg", alt: "Screen Printing" },
-    { id: 6, src: "/gallery/10.jpg", alt: "Bulk Packaging" },
-    { id: 6, src: "/gallery/11.jpg", alt: "Bulk Packaging" },
-    { id: 4, src: "/stone.png", alt: "Embroidery Work" },
-    { id: 5, src: "/sttwo.jpg", alt: "Finished T-shirts" },
-    { id: 6, src: "/stthree.jpg", alt: "Bulk Packaging" },
-        { id: 7, src: "/st4.jpg", alt: "Finished T-shirts" },
-    { id: 8, src: "/st5.jpg", alt: "Bulk Packaging" },
-        { id: 9, src: "/Wha2.jpg", alt: "Bulk Packaging" },
-        { id: 10, src: "/WhatsAp1.jpg", alt: "Finished T-shirts" },
-    { id: 11, src: "/WHA3`.jpg", alt: "Bulk Packaging" },
-  ];
+const galleryImages = [
+  { id: 1, src: "/gallery/1.jpg", alt: "Factory Production Line" },
+  { id: 2, src: "/gallery/2.jpg", alt: "Quality Control Process" },
+  { id: 3, src: "/gallery/3.jpg", alt: "Screen Printing" },
+  { id: 4, src: "/gallery/10.jpg", alt: "Bulk Packaging" },
+  { id: 5, src: "/gallery/11.jpg", alt: "Bulk Packaging" },
+  { id: 6, src: "/stone.png", alt: "Embroidery Work" },
+  { id: 7, src: "/sttwo.jpg", alt: "Finished T-shirts" },
+  { id: 8, src: "/stthree.jpg", alt: "Bulk Packaging" },
+  { id: 9, src: "/st4.jpg", alt: "Finished T-shirts" },
+  { id: 10, src: "/st5.jpg", alt: "Bulk Packaging" },
+  { id: 11, src: "/Wha2.jpg", alt: "Bulk Packaging" },
+  { id: 12, src: "/WhatsAp1.jpg", alt: "Finished T-shirts" },
+  { id: 13, src: "/WHA3.jpg", alt: "Bulk Packaging" }, // removed stray backtick
+];
 
   return (
     <section id="gallery" className="py-12 max-[470px]:py-6 bg-slate-50">

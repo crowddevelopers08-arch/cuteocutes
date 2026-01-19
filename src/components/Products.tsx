@@ -23,10 +23,10 @@ export default function Products() {
       tagline: "Limited Time Offer",
     },
      {
-      title: "Schools",
+      title: "Schools Uniforms",
       badge: "WINTER SPECIAL",
       offer: "Premium Quality",
-      price: "₹299",
+      price: "₹199",
       originalPrice: "₹799",
       moq: "50 pcs",
       imageSrc: "/ChatGP.png",
