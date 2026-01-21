@@ -60,7 +60,10 @@ export default function WhyManufacturer() {
   ];
 
   return (
-    <section id="why-manufacturer" className="py-12 max-[470px]:py-6 bg-white max-[470px]:mt-0 scroll-mt-10">
+    <section
+      id="why-manufacturer"
+      className="py-12 max-[470px]:py-6 bg-white max-[470px]:mt-0 scroll-mt-10"
+    >
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           {/* Left Side - Content */}
@@ -69,7 +72,8 @@ export default function WhyManufacturer() {
               Why Buy Direct from Manufacturer?
             </h2>
             <p className="text-xl text-slate-600 mb-8">
-              Cut costs, maintain quality, and get your bulk orders delivered on time — every time.
+              Cut costs, maintain quality, and get your bulk orders delivered on
+              time — every time.
             </p>
 
             <div className="space-y-6">
@@ -86,9 +90,7 @@ export default function WhyManufacturer() {
                       <h3 className="text-lg font-bold text-slate-900 mb-2">
                         {benefit.title}
                       </h3>
-                      <p className="text-slate-600">
-                        {benefit.description}
-                      </p>
+                      <p className="text-slate-600">{benefit.description}</p>
                     </div>
                   </div>
                 );
@@ -96,18 +98,30 @@ export default function WhyManufacturer() {
             </div>
 
             {/* Stats */}
-            <div className="mt-8 grid grid-cols-3 gap-4 p-6 bg-slate-50 rounded-xl">
+            <div className="mt-4 sm:mt-6 md:mt-8 grid grid-cols-3 gap-2 sm:gap-3 md:gap-4 p-4 sm:p-5 md:p-6 bg-slate-50 rounded-lg sm:rounded-xl">
               <div className="text-center">
-                <div className="text-2xl font-bold text-red-500">100%</div>
-                <div className="text-sm text-slate-600">In-House Production</div>
+                <div className="text-lg sm:text-xl md:text-2xl font-bold text-red-500">
+                  100%
+                </div>
+                <div className="text-xs sm:text-sm text-slate-600">
+                  In-House Production
+                </div>
               </div>
               <div className="text-center">
-                <div className="text-2xl font-bold text-red-500">7 Days</div>
-                <div className="text-sm text-slate-600">Delivery Time</div>
+                <div className="text-lg sm:text-xl md:text-2xl font-bold text-red-500">
+                  7 Days
+                </div>
+                <div className="text-xs sm:text-sm text-slate-600">
+                  Delivery Time
+                </div>
               </div>
               <div className="text-center">
-                <div className="text-2xl font-bold text-red-500">MOQ 100</div>
-                <div className="text-sm text-slate-600">Minimum Order</div>
+                <div className="text-lg sm:text-xl md:text-2xl font-bold text-red-500">
+                  MOQ 100
+                </div>
+                <div className="text-xs sm:text-sm text-slate-600">
+                  Minimum Order
+                </div>
               </div>
             </div>
           </div>

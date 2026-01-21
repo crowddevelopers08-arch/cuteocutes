@@ -357,46 +357,53 @@ export default function SchoolMarathonSpecial() {
             </div>
 
             {/* Stats and CTA Section - Enhanced */}
-            <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 sm:gap-8">
+            <div className="grid grid-cols-1 lg:grid-cols-2 gap-4 sm:gap-6 md:gap-8">
               {/* Stats Block */}
-              <div className="lg:col-span-2 bg-gradient-to-br from-[#163962] via-[#163962] to-blue-900 p-8 rounded-2xl shadow-2xl relative overflow-hidden">
+              <div className="lg:col-span-2 bg-gradient-to-br from-[#163962] via-[#163962] to-blue-900 p-4 sm:p-6 md:p-8 rounded-xl sm:rounded-2xl shadow-lg sm:shadow-xl lg:shadow-2xl relative overflow-hidden">
                 {/* Pattern Overlay */}
                 <div className="absolute inset-0 opacity-5">
                   <div className="absolute inset-0 bg-[radial-gradient(circle_at_30%_20%,white,transparent_50%)]"></div>
                 </div>
 
                 <div className="relative z-10">
-                  <div className="flex items-center gap-3 mb-8">
-                    <Trophy className="w-8 h-8 text-[#ebc04a]" />
-                    <h3 className="text-2xl font-bold text-white">
+                  <div className="flex items-center gap-2 sm:gap-3 mb-4 sm:mb-6 md:mb-8">
+                    <Trophy className="w-6 h-6 sm:w-7 sm:h-7 md:w-8 md:h-8 text-[#ebc04a]" />
+                    <h3 className="text-lg sm:text-xl md:text-2xl font-bold text-white">
                       Trusted by 100+ Schools Nationwide
                     </h3>
                   </div>
 
-                  <div className="grid grid-cols-2 sm:grid-cols-4 gap-6">
+                  <div className="grid grid-cols-2 sm:grid-cols-4 gap-4 sm:gap-6">
                     {stats.map((stat, index) => (
                       <div key={index} className="text-center group">
-                        <div className="text-3xl sm:text-4xl font-black text-white mb-2 flex items-center justify-center gap-2">
-                          <span className="text-2xl">{stat.icon}</span>
+                        <div className="text-2xl sm:text-3xl md:text-4xl font-black text-white mb-1 sm:mb-2 flex items-center justify-center gap-1 sm:gap-2">
+                          <span className="text-xl sm:text-2xl">
+                            {stat.icon}
+                          </span>
                           {stat.value}
                         </div>
-                        <div className="text-sm text-[#ebc04a] font-semibold uppercase tracking-wider group-hover:text-white transition-colors">
+                        <div className="text-xs sm:text-sm text-[#ebc04a] font-semibold uppercase tracking-wide sm:tracking-wider group-hover:text-white transition-colors">
                           {stat.label}
                         </div>
                       </div>
                     ))}
                   </div>
 
-                  <div className="mt-8 pt-8 border-t border-white/20">
-                    <div className="flex flex-wrap items-center justify-center gap-4">
-                      <div className="flex items-center gap-2 text-white/90">
-                        <Sparkles className="w-5 h-5 text-[#ebc04a]" />
-                        <span>ISO 9001:2015 Certified</span>
+                  <div className="mt-6 sm:mt-8 pt-6 sm:pt-8 border-t border-white/20">
+                    <div className="flex flex-col sm:flex-row flex-wrap items-center justify-center gap-2 sm:gap-4">
+                      <div className="flex items-center gap-1 sm:gap-2 text-white/90">
+                        <Sparkles className="w-4 h-4 sm:w-5 sm:h-5 text-[#ebc04a]" />
+                        <span className="text-sm sm:text-base">
+                          ISO 9001:2015 Certified
+                        </span>
                       </div>
-                      <div className="w-1 h-1 bg-white/40 rounded-full"></div>
-                      <div className="flex items-center gap-2 text-white/90">
-                                              <Heart className="w-5 h-5 text-red-400" />
-                        <span>Child-Safe Materials</span>
+                      <div className="hidden sm:block w-1 h-1 bg-white/40 rounded-full"></div>
+                      <div className="block sm:hidden w-6 h-px bg-white/40 rounded-full"></div>
+                      <div className="flex items-center gap-1 sm:gap-2 text-white/90">
+                        <Heart className="w-4 h-4 sm:w-5 sm:h-5 text-red-400" />
+                        <span className="text-sm sm:text-base">
+                          Child-Safe Materials
+                        </span>
                       </div>
                     </div>
                   </div>

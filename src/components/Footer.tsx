@@ -4,8 +4,8 @@ export default function Footer() {
   return (
     <footer className="bg-slate-900 text-white">
       {/* Main Footer */}
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
-        <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8 lg:gap-12">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12 max-sm:py-6">
+        <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8 max-sm:gap-4 lg:gap-12">
           {/* Brand */}
           <div className="lg:col-span-2">
             <h3 className="text-2xl font-bold text-white mb-4">
@@ -83,8 +83,8 @@ export default function Footer() {
         </div>
 
         {/* Bottom Bar */}
-        <div className="border-t border-slate-800 mt-8 pt-8">
-          <div className="flex flex-col md:flex-row justify-between items-center gap-4">
+        <div className="border-t border-slate-800 mt-8 max-sm:mt-4 max-sm:pt-4 pt-8">
+          <div className="flex flex-col md:flex-row justify-between items-center max-sm:gap-1 gap-4">
             <p className="text-slate-400 text-sm">
               © 2025 Cute O Cute Garments. All rights reserved.
             </p>

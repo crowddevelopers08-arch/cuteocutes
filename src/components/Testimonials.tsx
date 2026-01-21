@@ -132,7 +132,7 @@ export default function Testimonials() {
         </div>
 
         {/* Google Reviews Widget (Elfsight) */}
-        <div className="mt-16">
+        <div className=" max-sm:mt-0 mt-16">
           <h3 className="sr-only">Google Reviews</h3>
           <div className={`elfsight-app-${elfsightAppId}`} data-elfsight-app-lazy />
         </div>

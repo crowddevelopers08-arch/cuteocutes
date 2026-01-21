@@ -20,9 +20,9 @@ const galleryImages = [
 ];
 
   return (
-    <section id="gallery" className="py-12 max-[470px]:py-6 bg-slate-50">
+    <section id="gallery" className="max-sm:pt-0 py-12 max-[470px]:py-6 bg-slate-50">
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="text-center mb-12">
+        <div className="text-center max-sm:mb-4 mb-12">
           <h2 className="text-3xl font-bold text-slate-900 mb-4">
             Our Gallery
           </h2>
