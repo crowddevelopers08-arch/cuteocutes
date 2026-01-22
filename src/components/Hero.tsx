@@ -194,7 +194,7 @@ export default function Hero() {
                 }}
               >
                 <span className="w-2 h-2 bg-red-400 rounded-full animate-pulse flex-shrink-0" />
-                Minimum 50 pieces
+                Minimum 100 pieces
               </div>
             </div>
 
