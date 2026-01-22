@@ -28,7 +28,7 @@ export default function Products() {
       offer: "Premium Quality",
       price: "₹199",
       originalPrice: "₹799",
-      moq: "50 pcs",
+      moq: "100 pcs",
       imageSrc: "/ChatGP.png",
       features: [
         "Premium fleece fabric",

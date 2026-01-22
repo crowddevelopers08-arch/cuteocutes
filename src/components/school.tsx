@@ -73,7 +73,7 @@ export default function SchoolMarathonSpecial() {
     {
       name: "Sports Kits",
       description: "Performance wear for school teams",
-      minOrder: "MOQ: 50 pcs",
+      minOrder: "MOQ: 100 pcs",
       price: "Starting at ₹149/pc",
       icon: "⚽",
       color: "#d82226",
@@ -83,7 +83,7 @@ export default function SchoolMarathonSpecial() {
   ];
 
   const stats = [
-    { value: "50K+", label: "Student Kits", icon: "👕" },
+    { value: "100K+", label: "Student Kits", icon: "👕" },
     { value: "100+", label: "Partner Schools", icon: "🏫" },
     { value: "98%", label: "Satisfaction", icon: "⭐" },
     { value: "15-20", label: "Days Delivery", icon: "🚚" },
